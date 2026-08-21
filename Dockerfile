@@ -29,7 +29,7 @@ from pathlib import Path
 os.environ["AUTOMEM_MODELS_DIR"] = "/opt/automem/models"
 from automem.embedding.fastembed import FastEmbedProvider
 p = FastEmbedProvider(dimension=1024)
-vec = p.embed("railway build-time warmup")
+vec = p.generate_embedding("railway build-time warmup")
 assert len(vec) == 1024, len(vec)
 assert p.provider_name().startswith("fastembed"), p.provider_name()
 cached = list(Path("/opt/automem/models").iterdir())
