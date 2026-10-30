@@ -1,5 +1,9 @@
 # automem-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/automem-or-just-updated-agent-memory-tha?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [AutoMem template](https://railway.com/deploy/automem-or-just-updated-agent-memory-tha?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Wrapper images that package [AutoMem](https://github.com/verygoodplugins/automem) —
 the graph + vector memory service for AI agents — for Railway.
 
